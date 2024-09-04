@@ -9,7 +9,7 @@ python3 train_autoencoder.py --config autoencoder.yaml
 
 To start **QGAN** training:
 ```
-python3 train_autoencoder.py --config gan.yaml --autoencoder-config autoencoder.yaml
+python3 train_qgan.py --config gan.yaml --autoencoder-config autoencoder.yaml
 ```
 
 Examples of generated images:
